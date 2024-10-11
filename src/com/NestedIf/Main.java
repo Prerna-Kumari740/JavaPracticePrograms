@@ -10,6 +10,19 @@ public class Main {
 		System.out.println(" Enter no :-");
 		int num = sc.nextInt();
 		
+		if((num >= 100 ) && (num <= 999)) {
+			if(num % 12 == 0) {
+				 System.out.println(num + " is  3 digit no and divisible by 12. ");
+			}else {
+				System.out.println(num + " is 3 digit no is and not divisible by 12. ");
+			}
+		} else {
+			if(num % 5 == 0) {
+				System.out.println(num + " it is not  3 digit no and it is divisible by 5");
+			}else {
+				System.out.println(num + " it is not  3 digit no and it is not divisible by 5");
+			}
+		}
 		
 	}
-}
+	}
