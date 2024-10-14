@@ -27,6 +27,7 @@ public class Leave {
 		}
 		else {
 			System.out.println("not other reason require for leave");
+			sc.close();
 		}
 	}
 
